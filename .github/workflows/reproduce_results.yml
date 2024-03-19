@@ -1,5 +1,5 @@
 # Simple workflow for deploying static content to GitHub Pages
-name: Run tests
+name: Upload Artifacts
 
 on: [push]
 
@@ -9,9 +9,9 @@ jobs:
 
     env:
       # Directory that will be published on github pages
-      DATADIR: ./data
-      FIGDIR: ./data/figures
-      RESULTDIR: ./data/results
+      DATADIR: data
+      FIGDIR: figures
+      RESULTDIR: results
 
 
     steps:
