@@ -1,8 +1,8 @@
 #! /bin/bash
 
- DATADIR: ./data
-FIGDIR: ./artifacts/figures
-RESULTDIR: ./artifacts/results
+DATADIR="data"
+RESULTSDIR="results"
+FIGDIR="figures"
 
 mkdir -p ${RESULTSDIR}
 mkdir -p ${FIGDIR}
