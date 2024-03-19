@@ -9,9 +9,9 @@ jobs:
 
     env:
       # Directory that will be published on github pages
-      DATADIR: ./data
-      FIGDIR: ./artifacts/figures
-      RESULTDIR: ./artifacts/results
+      DATADIR: data
+      FIGDIR: figures
+      RESULTDIR: results
 
 
     steps:
