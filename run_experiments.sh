@@ -1,9 +1,5 @@
 #! /bin/bash
 
-DATADIR="data"
-RESULTSDIR="results"
-FIGDIR="figures"
-
 mkdir -p ${RESULTSDIR}
 mkdir -p ${FIGDIR}
 
